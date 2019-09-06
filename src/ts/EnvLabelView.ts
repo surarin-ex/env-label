@@ -4,7 +4,7 @@ export default class EnvLabelView {
   public toHTML(): string {
     return `
       <style>
-        a {
+        #env-label a {
           background: ${this.labelColor};
           color: #fff;
           text-decoration: none;
